@@ -1,0 +1,10 @@
+cdk init app --language typescript
+cdk synth
+cdk synth > template.yml
+cdk bootstrap - 1st run this command before "deploy"
+cdk deploy
+cdk deploy --all
+cdk deploy <StackName>
+cdk diff
+cdk destroy
+cdk doctor - this will tell if there are problems in our Stack
